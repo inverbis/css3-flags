@@ -1,0 +1,43 @@
+<!-- Inspired by CSS3 Patterns Gallery, http://lea.verou.me/css3patterns/ -->
+<html>
+	<head>
+		<style>
+			.us-flag {
+				background-color: #cd0000;
+				background-image: linear-gradient(transparent 50%, rgb(255, 255, 255) 50%);
+				background-size: 66px 66px;
+				height: 429px;
+				position: relative;
+				width: 750px;
+			}
+			.us-flag #stars {
+				width:280px;
+				height:231px;
+				position:absolute;
+				top:0;
+				left:0;
+				background:
+				linear-gradient(324deg, #104e8b 4%,   transparent 4%) -35px 22px,
+				linear-gradient( 36deg, #104e8b 4%,   transparent 4%) 15px 22px,
+				linear-gradient( 72deg, #fff 8.5%, transparent 8.5%) 15px 22px,
+				linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -35px 22px,
+				linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -35px 12px,
+				linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 15px 12px,
+
+				linear-gradient(324deg, #104e8b 4%,   transparent 4%) -10px 47px,
+				linear-gradient( 36deg, #104e8b 4%,   transparent 4%) 40px 47px,
+				linear-gradient( 72deg, #fff 8.5%, transparent 8.5%) 40px 47px,
+				linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -10px 47px,
+				linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -10px 37px,
+				linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 40px 37px;
+				background-color: #104e8b ;
+				background-size: 50px 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="us-flag">
+			<div id="stars"></div>
+		</div>
+	</body>
+</html>
